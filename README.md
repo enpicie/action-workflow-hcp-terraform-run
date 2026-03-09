@@ -39,3 +39,9 @@ jobs:
 | tfc_token           | HCP Terraformm API Token          | Yes      | `secret`           |
 
 ---
+
+## Recommendation
+
+It is **highly recommended** to use [TF*VAR*\* Env vars feature](https://github.com/hashicorp/tfc-workflows-github/tree/main/actions/create-run#variables) of Hashicorp's create-run action to share variables with your Terraform code.
+
+This is the cleanest way of using this action with variables shared between your Terraform config and GitHub Actions pipeline.
