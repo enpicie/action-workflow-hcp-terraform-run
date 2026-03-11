@@ -2,6 +2,8 @@
 
 Reusable Workflow for GitHub Actions to start HCP Terraform runs for a workspace.
 
+## This repo is now archived as infrastructure has been migrated from HCP Terraform Cloud to using OpenTofu within GitHub Actions
+
 ## Usage
 
 **This workflow assumes the given HCP Workspace exists already.**
